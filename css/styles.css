@@ -11,6 +11,8 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--primary-text-color);
+  background-color: var(--text-color-white);
+  font-size: 14px;
 }
 
 .logo {
@@ -34,6 +36,13 @@ body {
 .site-nav .link {
   color: var(--primary-text-color);
   text-decoration: none;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .cont-info {
+  color: var(--secondary-text-color);
 }
 
 .site-nav .active {
@@ -46,10 +55,8 @@ body {
 }
 
 .section-title {
-  color: var(--primary-text-color);
-  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.33;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -62,7 +69,7 @@ body {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -77,18 +84,15 @@ body {
   cursor: pointer;
 }
 
-.benefits .title {
-  font-weight: 700;
+.benefits .benefits-title {
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .benefits p {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
@@ -107,7 +111,7 @@ body {
   background-color: var(--secondary-background-color);
 }
 
-.person {
+.tam-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -115,10 +119,9 @@ body {
   letter-spacing: 0.03em;
 }
 
-.team p {
-  font-weight: 400;
+.team .team-position {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
@@ -135,18 +138,14 @@ body {
 .address {
   color: var(--text-color-white);
   text-decoration: none;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: normal;
 }
 
 .email,
 .tel {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -182,18 +181,15 @@ body {
   border: transparent;
 }
 
-.title {
-  color: var(--primary-text-color);
-  font-weight: 700;
+.project-title {
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.works p {
-  font-weight: 400;
+.works .project-text {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
